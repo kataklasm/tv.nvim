@@ -23,15 +23,15 @@ Neovim integration for [television](https://github.com/alexpasmantier/television
 use "alexpasmantier/tv.nvim"
 ```
 
-No setup required - works out of the box with sensible defaults.
-
 ## Usage
 
 **Default keybindings:**
 
-- `<C-p>` - Find files
-- `<leader><leader>` - Search text
-- `<leader>tv` - Select channel
+| Keybinding | Action |
+|------------|--------|
+| <kbd>Ctrl</kbd>+<kbd>p</kbd> | Find files |
+| <kbd>Leader</kbd>+<kbd>Leader</kbd> | Search text |
+| <kbd>Leader</kbd>+<kbd>t</kbd>+<kbd>v</kbd> | Select channel |
 
 **Commands:**
 
@@ -41,8 +41,10 @@ No setup required - works out of the box with sensible defaults.
 
 **Inside tv:**
 
-- `<Enter>` - Open file(s) in buffers
-- `<C-q>` - Send selections to quickfix list
+| Keybinding | Action |
+|------------|--------|
+| <kbd>Enter</kbd> | Open file(s) in buffers |
+| <kbd>Ctrl</kbd>+<kbd>q</kbd> | Send selections to quickfix list |
 
 ## Configuration
 
