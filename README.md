@@ -1,9 +1,5 @@
 # tv.nvim
 
-![Static Badge](https://img.shields.io/badge/neovim-lua-pink)
-![GitHub branch check runs](https://img.shields.io/github/check-runs/alexpasmantier/tv.nvim/main)
-![GitHub License](https://img.shields.io/github/license/alexpasmantier/tv.nvim)
-
 Neovim integration for [television](https://github.com/alexpasmantier/television) - a fast and hackable fuzzy finder.
 
 [![asciicast](https://asciinema.org/a/754777.svg?t=9&)](https://asciinema.org/a/754777)
