@@ -51,6 +51,10 @@ INSTALLATION                               *tv.nvim-docs-tv.nvim-installation*
 
 USAGE                                             *tv.nvim-docs-tv.nvim-usage*
 
+The integration currently only ports the "files" and "text" channels of
+television, which are the ones I use the most. More channels may be added in
+the future.
+
 **Default keybindings:**
 
   Keybinding      Action
