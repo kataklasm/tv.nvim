@@ -2,6 +2,10 @@
 
 Neovim integration for [television](https://github.com/alexpasmantier/television) - a fast and hackable fuzzy finder.
 
+The initial idea behind [Television](https://github.com/alexpasmantier/television) was to create something like the popular [telescope.nvim](https://github.com/tjdevries/telescope.nvim) plugin, but as a standalone terminal application - keeping telescope's modularity without the Neovim dependency, and benefiting from Rust's performance.
+
+This plugin brings Television back into Neovim through a thin Lua wrapper around the binary. It started as a way to dogfood my own project, but might be of interest to other tv enthusiasts as well. Full circle.
+
 [![asciicast](https://asciinema.org/a/754777.svg?t=9&)](https://asciinema.org/a/754777)
 
 ## Requirements
@@ -23,10 +27,10 @@ use "alexpasmantier/tv.nvim"
 
 **Default keybindings:**
 
-| Keybinding | Action |
-|------------|--------|
-| <kbd>Ctrl</kbd>+<kbd>p</kbd> | Find files |
-| <kbd>Leader</kbd>+<kbd>Leader</kbd> | Search text |
+| Keybinding                                  | Action         |
+| ------------------------------------------- | -------------- |
+| <kbd>Ctrl</kbd>+<kbd>p</kbd>                | Find files     |
+| <kbd>Leader</kbd>+<kbd>Leader</kbd>         | Search text    |
 | <kbd>Leader</kbd>+<kbd>t</kbd>+<kbd>v</kbd> | Select channel |
 
 **Commands:**
@@ -37,9 +41,9 @@ use "alexpasmantier/tv.nvim"
 
 **Inside tv:**
 
-| Keybinding | Action |
-|------------|--------|
-| <kbd>Enter</kbd> | Open file(s) in buffers |
+| Keybinding                   | Action                           |
+| ---------------------------- | -------------------------------- |
+| <kbd>Enter</kbd>             | Open file(s) in buffers          |
 | <kbd>Ctrl</kbd>+<kbd>q</kbd> | Send selections to quickfix list |
 
 ## Configuration
