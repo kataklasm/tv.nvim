@@ -1,5 +1,9 @@
 # 📺 tv.nvim
 
+![Static Badge](https://img.shields.io/badge/neovim-lua-pink)
+![GitHub last commit](https://img.shields.io/github/last-commit/alexpasmantier/tv.nvim)
+![GitHub License](https://img.shields.io/github/license/alexpasmantier/tv.nvim)
+
 Neovim integration for [television](https://github.com/alexpasmantier/television).
 
 The initial idea behind [television](https://github.com/alexpasmantier/television) was to create something like the popular [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) plugin, but as a standalone terminal application - keeping telescope's modularity without the Neovim dependency, and benefiting from Rust's performance.
