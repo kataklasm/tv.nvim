@@ -39,10 +39,6 @@ vim.keymap.set("n", "<leader><leader>", function()
   require("tv").tv_text()
 end, { desc = "TV: Search text" })
 
-vim.keymap.set("n", "<leader>td", function()
-  require("tv").tv_todo()
-end, { desc = "TV: Search text" })
-
 vim.keymap.set("n", "<leader>tv", function()
   require("tv").tv_channels()
 end, { desc = "TV: Select channel" })
